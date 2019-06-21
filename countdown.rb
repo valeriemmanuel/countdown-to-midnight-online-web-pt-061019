@@ -1,11 +1,14 @@
 #write your code here
-
-def countdown_with_sleep (number)
-  while number>0 
-  puts "#{number} SECONDS(S)!"
+de
+def countdown_with_sleep(num)
+  num = 5
+  until num == 0 
+  puts "#{num} SECONDS(S)!"
   sleep(1)
-  number -= 1
+  break if num == 0
+  num -= 1
+
   end
-  puts "Happy New Year!"
+  #"Happy New Year!"
 end
-countdown_with_sleep (2)
+#countdown_with_sleep (2)
